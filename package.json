@@ -1,0 +1,24 @@
+{
+  "name": "honon_best_dish",
+  "version": "1.0.0",
+  "description": "dish rater for LG",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickuhn/honon_best_dish.git"
+  },
+  "author": "Nick Kuhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickuhn/honon_best_dish/issues"
+  },
+  "homepage": "https://github.com/nickuhn/honon_best_dish#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.3"
+  }
+}
