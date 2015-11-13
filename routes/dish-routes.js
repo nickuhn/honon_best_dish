@@ -13,7 +13,7 @@ module.exports = function(router) {
     res.json({working: true});
   });
 
-  router.route('/dishes/test')
+  router.route('/dishes/:id')
 
   .get(function(req, res) {
     res.json({working: true});
