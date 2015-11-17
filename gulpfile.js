@@ -5,7 +5,10 @@ var mocha = require('gulp-mocha');
 
 gulp.task('test', function() {
   return gulp.src('test/*.js')
-             .pipe(mocha({reporter: 'nyan'}));
+             .pipe(mocha({reporter: 'nyan'}))
+             .once('end', function(){
+                process.exit();
+              });
 });
 
 gulp.task('watch', function() {

@@ -1,4 +1,5 @@
 var bodyParser = require('body-parser');
+var Dish = require(__dirname + '/../models/dish.js');
 
 module.exports = function(router) {
   router.use(bodyParser.json());
